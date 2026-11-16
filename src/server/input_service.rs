@@ -2434,6 +2434,7 @@ fn skip_led_sync_control_key(key: &ControlKey) -> bool {
             | ControlKey::RAlt
             | ControlKey::Tab
             | ControlKey::Return
+            | ControlKey::CapsLock
     )
 }
 
